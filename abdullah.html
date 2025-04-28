@@ -1,0 +1,179 @@
+<!DOCTYPE html><html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="a.css">
+    <script defer src="java.js"></script>
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <nav>
+            <div class="logo">Abdullah Wasel</div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="burger">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+        </nav>
+    </header><!-- Home Section -->
+<section id="home" class="hero">
+    <div class="hero-overlay">
+        <div class="hero-content">
+            <img src="abdullah.jpg" alt="Profile Picture" class="profile-pic">
+            <h1>Hello, I'm  [ Abdullah Bander Wasel ]</h1>
+            <p><b>Eng. Abdullah Wasel is a highly versatile professional specializing in Frontend Development, Photoshop Design, and UX/UI Design.<br> He is also an experienced Programmer and Network Engineer, with strong expertise in system administration and maintenance.<br> His multidisciplinary background enables him to deliver innovative, reliable, and user-focused solutions across both creative and technical fields.</b></p>
+            <a href="#portfolio" class="btn">View My Work</a>
+        </div>
+    </div>
+</section>
+
+<!-- About Section -->
+<section id="about" class="about">
+    <h2>About Me</h2>
+    <p><b>Eng: Abdullah Wasel was born on 12-07-2001, in Khamer District, Amran Governorate, Yemen. He began his education at Al-Shaheed Mohammed Al-Durra School in Al-Mahafeeth village, then moved to Sana'a where he completed his high school education.
+
+        Abdullah advanced his English studies at New Horizons Institute and pursued multiple courses in human development, business management, and e-commerce at Yemen Soul Institute, earning several professional certificates.
+        
+        With strong expertise in Photoshop design, Frontend programming, and networking, he has also built solid skills in modem programming, system administration, and cloud computing. Passionate about cybersecurity, he studied Wi-Fi network penetration online and is now teaching others Wi-Fi hacking techniques at Cyberman Academy.
+        
+        Currently, Abdullah is in his fourth year of studying Information Technology at Saba University, where he is recognized among the top students. He is driven by a passion for technology, innovation, and continuous learning.</b></p>
+    
+</section>
+
+<!-- Portfolio Section -->
+<section id="portfolio" class="portfolio">
+    <h2>My Projects</h2>
+    <div class="projects">
+        <div class="project">
+            <img src="a.png" alt="Project 1">
+            <h3>Waselation Supermarket</h3>
+            <p>Here is UXUI design for a an application for Waselation supermarket.</p>
+           
+        </div>
+        <div class="project">
+            <img src="b.png" alt="Project 2">
+            <h3>Youatmad Platform</h3>
+            <p>Here is UXUI design for a an application for Youatmad platform.</p>
+            
+        </div>
+        <div class="project">
+            <img src="44.png" alt="Project 2">
+            <h3>Ehsan Hospital</h3>
+            <p>Here is a design for a website for Al-Ehsan hospital.</p>
+          
+        </div>
+        <div class="project">
+            <img src="66.png" alt="Project 2">
+            <h3>Oxford Institute</h3>
+            <p>Here is a design for a website for Oxford institute.</p>
+        
+        </div>
+        <div class="project">
+            <img src="88.png" alt="Project 2">
+            <h3>Personal Website</h3>
+            <p>Here is a design for a personal website also under it design for cards.</p>
+            
+        </div>
+        <div class="project">
+            <img src="77.png" alt="Project 2">
+            <h3>Page In A Website</h3>
+            <p>Here is a design for a page in a personal website that talks about the owner of the website.</p>
+            
+        </div>
+        <div class="project">
+            <img src="99.png" alt="Project 2">
+            <h3>Landing Page</h3>
+            <p>Here is a design for a landing page under it a university card for a student using html and css.</p>
+           
+        </div>
+        <div class="project">
+            <img src="55.png" alt="Project 2">
+            <h3>Hospital System</h3>
+            <p>Here is a system for a hospital using oop manners with c# language, its codes has been written in highly qualified way.</p>
+            
+        </div>
+        <div class="project">
+            <img src="pp.png" alt="Project 2">
+            <h3>Photoshop Design</h3>
+            <p>Here is a simple design for a graphic agency and it is considered as social media post.</p>
+            
+        </div>
+        <div class="project">
+            <img src="11.png" alt="Project 2">
+            <h3>Social Media Post</h3>
+            <p>Here is a simple design for a speech of a doctor that speak about his graduated students.</p>
+            
+        </div>
+        <div class="project">
+            <img src="22.png" alt="Project 2">
+            <h3>Products Design</h3>
+            <p>Here is a design for a product for a company that sells a milk  and it is a social media post.</p>
+            
+        </div>
+        <div class="project">
+            <img src="33.png" alt="Project 2">
+            <h3>Products Design</h3>
+            <p>Here is a design for a product for a company that sells a juice and it is a social media post.</p>
+            
+        </div>
+    </div>
+</section>
+
+<!-- Contact Section -->
+<section id="contact" class="contact">
+    <h2>Contact Me</h2>
+    <form id="whatsapp-form">
+        <input type="text" id="name" placeholder="Your Name" required>
+        <input type="email" id="email" placeholder="Your Email" required>
+        <textarea id="message" placeholder="Your Message" required></textarea>
+        <button type="submit" class="btn" id="submit-btn">Send Message via WhatsApp</button>
+    </form>
+</section>
+
+<!-- Footer -->
+<footer>
+    <p>&copy; 2025 My Portfolio. All rights reserved to <a href="tel:+967778300023" style="color: white; font-size: larger;">Abdullah </a>.</p>
+</footer>
+
+<!-- JavaScript for WhatsApp Integration -->
+<script>
+   document.getElementById('whatsapp-form').addEventListener('submit', function (e) {
+    e.preventDefault();
+
+    // Get form values
+    const name = document.getElementById('name').value.trim();
+    const email = document.getElementById('email').value.trim();
+    const message = document.getElementById('message').value.trim();
+
+    // Validate input fields
+    if (!name || !email || !message) {
+        alert("❌ Please fill in all fields before sending.");
+        return;
+    }
+
+    // WhatsApp phone number (use international format)
+    const phoneNumber = "967778300023"; // Example: Yemen country code +967
+
+    // Format message
+    const whatsappMessage = `👋 Hello Mr Abdullah, you have a new message from your website :\n\n📝 *Name:* ${encodeURIComponent(name)}\n📧 *Email:* ${encodeURIComponent(email)}\n💬 *Message:* ${encodeURIComponent(message)}`;
+
+    // Create WhatsApp URL
+    const whatsappUrl = `https://wa.me/${phoneNumber}?text=${whatsappMessage}`;
+
+    // Open WhatsApp in a new tab
+    window.open(whatsappUrl, '_blank');
+});
+</script>
+
+
+</body>
+</html>
